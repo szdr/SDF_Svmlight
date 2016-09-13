@@ -7,19 +7,19 @@ feature vec: ECFP4 (2048bit)
 * RDKit (https://conda.anaconda.org/rdkit)
 
 # demo
-1. Go to PubChem assay page.
+## Go to PubChem assay page.
 
 ![](demo/1.PNG)
 
-2. Download datatable (csv).
+## Download datatable (csv).
 
 ![](demo/2.PNG)
 
-3. Download sdf file.
+## Download sdf file.
 
 ![](demo/3.PNG)
 
-4. Run script.
+## Run script.
 
 `
 python pubchem2svmlight.py pubchem_sdf datatable score_name
